@@ -1,0 +1,1 @@
+char operator = sc.next().charAt(0);
