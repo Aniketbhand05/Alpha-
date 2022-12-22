@@ -4,6 +4,12 @@ public class basic{
         p1.set_color("blue");
         p1.set_tip(5);
         System.out.println(p1.color +" " + p1.tip);
+        bankaccount myacc = new bankaccount();
+        myacc.username = "aniket bhand";
+        myacc.setpassword("abcc");
+        System.out.println(myacc.username);
+        System.out.println(myacc.password);
+
 
     }
 }
@@ -26,5 +32,12 @@ class Student{
 
     void calculate_percentage(int phy, int chem, int math){
         percentage = (phy+chem+math)/3;
+    }
+}
+class bankaccount{
+    public String username;
+    private String password;
+    public void setpassword(String pwd ){
+        password = pwd;
     }
 }
